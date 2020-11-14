@@ -31,7 +31,7 @@ module.exports = {
 		'no-implied-eval': 'error',
 		'no-lone-blocks': 'error',
 		'no-lonely-if': 'warn',
-		'no-magic-numbers': 'error',
+		// 'no-magic-numbers': 'error',
 		'no-multi-spaces': 'error',
 		'no-new-func': 'error',
 		'no-new-object': 'warn',
@@ -61,6 +61,7 @@ module.exports = {
 		'operator-assignment': 'warn',
 		'prefer-arrow-callback': 'warn',
 		'prefer-const': ['warn', { destructuring: 'all' }],
+		'prefer-destructuring': ['error', { object: true, array: false }],
 		'prefer-promise-reject-errors': 'error',
 		'prefer-regex-literals': 'error',
 		strict: 'warn',
@@ -74,28 +75,3 @@ module.exports = {
 	},
 	plugins: ['import', 'prettier'],
 };
-
-// eslint-disable-next-line no-undef
-// module.exports = {
-// 	root: true,
-// 	env: {
-// 		browser: true,
-// 		es2021: true,
-// 		es6: true,
-// 	},
-// 	extends: ['eslint:recommended', 'prettier'],
-// 	parserOptions: {
-// 		ecmaVersion: 12,
-// 		sourceType: 'module',
-// 	},
-// 	rules: {
-// 		curly: ['error', 'multi-line'],
-// 		'consistent-return': 'error',
-// 		eqeqeq: 'error',
-// 		'no-alert': 'error',
-// 		'no-else-return': 'error',
-// 		'no-empty-function': 'error',
-// 		'no-floating-decimal': 'error',
-// 	},
-// 	plugins: ['import'],
-// };
