@@ -2,9 +2,11 @@
 module.exports = {
 	root: true,
 	env: {
-		browser: true,
+		// browser: true,
+		node: true,
 		es2021: true,
 		es6: true,
+		mocha: true,
 	},
 	parser: '@babel/eslint-parser',
 	extends: ['eslint:recommended', 'plugin:prettier/recommended'],

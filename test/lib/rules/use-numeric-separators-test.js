@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-undef
-const RuleTester = require('eslint').RuleTester;
+const { RuleTester } = require('eslint');
 // eslint-disable-next-line no-undef
 const rule = require('../../../lib/rules/use-numeric-separators');
 

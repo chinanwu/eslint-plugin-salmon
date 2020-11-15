@@ -12,7 +12,7 @@
   "scripts": {
     "format": "prettier .",
     "lint": "eslint .",
-    "test": "mocha test/lib/rules/use-numeric-separators-test.js"
+    "test": "mocha 'test/**/*.js' --recursive"
   },
   "dependencies": {},
   "devDependencies": {
